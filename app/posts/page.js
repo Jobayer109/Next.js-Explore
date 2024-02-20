@@ -6,7 +6,7 @@ export default async function Posts() {
 
   return (
     <main>
-      <h3>My all posts</h3>
+      <h3 className="my-4 underline font-bold text-blue-500">My all posts</h3>
       <div>
         <ul>
           {posts.map((post) => (
