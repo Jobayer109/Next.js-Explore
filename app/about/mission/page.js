@@ -1,4 +1,6 @@
 import Button from "@/app/components/button";
+import thumb from "@/images/thumb.jpg";
+import Image from "next/image";
 
 export default function Mission() {
   return (
@@ -12,7 +14,14 @@ export default function Mission() {
         Fabrice Creuzot. Game concept for Chapter 16 by Thomas Palef.
       </p>
 
-      <Button />
+      <br />
+
+      <Image src={thumb} alt="Thumb images" priority={100} />
+
+      <Button
+        text={"Read more"}
+        className="bg-green-400 rounded-md px-2 py-1 mt-2"
+      />
     </main>
   );
 }

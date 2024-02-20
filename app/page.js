@@ -1,3 +1,5 @@
+import Button from "./components/button";
+
 export default function Home() {
   return (
     <main>
@@ -11,9 +13,7 @@ export default function Home() {
           your application instead of spending time with configuration.
         </p>
         <br />
-        <button className="bg-black text-white px-3 py-1 rounded">
-          Explore more
-        </button>
+        <Button text={"Explore more"}></Button>
       </div>
     </main>
   );

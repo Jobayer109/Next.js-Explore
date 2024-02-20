@@ -1,13 +1,13 @@
 "use client";
 
-export default function Button() {
+export default function Button({ text }) {
   return (
     <main>
       <button
         onClick={() => console.log("Button clicked")}
-        className="bg-green-400 rounded-md px-2 py-1 mt-2"
+        className="bg-black text-white px-3 py-1 rounded"
       >
-        Show more
+        {text}
       </button>
     </main>
   );
