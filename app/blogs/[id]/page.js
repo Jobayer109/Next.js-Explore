@@ -1,5 +1,10 @@
 import { notFound } from "next/navigation";
 
+export const metadata = {
+  title: "Blog ID",
+  description: "This is mission page",
+};
+
 export default function SingleBlog({ params }) {
   const { id } = params;
 

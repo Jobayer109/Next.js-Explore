@@ -2,6 +2,11 @@ import Button from "@/app/components/button";
 import thumb from "@/images/thumb.jpg";
 import Image from "next/image";
 
+export const metadata = {
+  title: "About Us | Mission",
+  description: "This is mission page",
+};
+
 export default function Mission() {
   return (
     <main className="my-6">

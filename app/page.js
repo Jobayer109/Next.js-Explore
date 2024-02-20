@@ -13,7 +13,9 @@ export default function Home() {
           your application instead of spending time with configuration.
         </p>
         <br />
-        <Button text={"Explore more"}></Button>
+        <a href="www.google.com" target="blank">
+          <Button text={"Explore more"}></Button>
+        </a>
       </div>
     </main>
   );
