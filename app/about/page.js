@@ -1,3 +1,4 @@
 export default function About() {
-  return <p>This is About page</p>;
+  // throw new Error("I'm error");
+  return <p className="my-6">This is About page</p>;
 }
