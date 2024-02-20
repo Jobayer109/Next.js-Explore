@@ -25,6 +25,7 @@ export default function Mission() {
 
       <Button
         text={"Read more"}
+        customStyle={{ backgroundColor: "blue" }}
         className="bg-green-400 rounded-md px-2 py-1 mt-2"
       />
     </main>

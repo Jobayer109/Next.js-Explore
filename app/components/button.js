@@ -1,12 +1,17 @@
 "use client";
 
-export default function Button({ text }) {
+export default function Button({ text, customStyle }) {
+  const style = {
+    backgroundColor: "black",
+    color: "white",
+    padding: ".5rem 1rem",
+    border: "1px solid gray",
+    borderRadius: "5px",
+    ...customStyle,
+  };
   return (
     <main>
-      <button
-        onClick={() => console.log("Button clicked")}
-        className="bg-black text-white px-3 py-1 rounded"
-      >
+      <button onClick={() => console.log("Button clicked")} style={style}>
         {text}
       </button>
     </main>
